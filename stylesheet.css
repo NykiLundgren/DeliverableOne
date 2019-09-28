@@ -1,3 +1,29 @@
 .mainContent{
  display:flex;
 }
+
+a:link{
+ text-decoration: none;
+ color: #88898B;
+}
+
+.redText{
+ color: red;
+}
+
+body{
+ background-image: url('bulldog.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+button{
+ background:#FF4850;
+ color: white;
+ border: none;
+}
+
+button:hover{
+ background-color:#CCC
+ color: #FF4850
+}

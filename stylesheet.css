@@ -1,94 +1,157 @@
 @-ms-viewport{
-  width: device-width;
+   width: device-width;
 }
 
-
-
-body{
- background-image: url("bulldog.jpg");
- background-repeat: no-repeat;
- background-attachment:fixed;
- background-size:cover;
- font-family: 'Fira Sans', sans-serif; 
- font-weight: 300;
- font-size: 20px;
- font-style: normal;
-}
-
-h3{
- padding-left:50px;
- padding-top: 10px;
-}
-ul{
-list-style-type:none;
-}
 .menu{
- display:flex;
- justify-content: flex-end;
- align-items:baseline;
-}
-
-a{
- padding-right: 50px;
+  display:flex;
+  flex-direction:column;
 }
 
 .contact{
- padding-left: 30px;
- padding-right: 30px;
- height: 40px;
- font-size: 20px;
+   width:100%;
+}
+ 
+body{
+   width:auto;
+   background-color:#F0ECEE;
+   font-family: 'Fira Sans', sans-serif; 
+   font-weight: 300;
+   font-size: 20px;
+   font-style: normal;
+}
+
+h3{
+  padding-left:50px;
+  padding-top: 10px;
+}
+
+ul{
+  list-style-type:none;
+}
+
+.contact{
+  font-size: 20px;
 }
 
 a:link{
- text-decoration: none;
- color: #88898B;
+  text-decoration: none;
+  color: #88898B;
 }
+
 a:hover{
-color:#FF4850
+  color:#FF4850
 }
 
 .redText{
- color: red;
+  color: red;
 }
 
 .paragraph{
-padding-left:50px;
-padding-top:15%;
-display:flex;
-flex-direction:column;
+  padding-left:50px;
+  padding-top:15%;
 }
 
 p{
-color: #88898B
+  color: #88898B
 }
 
 button{
- background:#FF4850;
- color: white;
- border-radius: 15px;
- padding:10px;
- background-position: left top;
-}
-.button{
-width: 15%;
-}
-button:hover{
- background-color:#CCC;
- color: #FF4850;
+  background:#FF4850;
+  color: white;
+  border-radius: 15px;
+  padding:10px;
+  background-position: left top;
+  height: 60px;
 }
 
-@media (min-width:768px){
- .menu{
- display:flex;
- flex-direction:column;
- }
- .contact{
- width:100%;
- }
- body{
-  width:auto;
-  background-color:#F0ECEE;
- }
+.button{
+  font-size: 20px;
+  width: 100%;
 }
+button:hover{
+  background-color:#CCC;
+  color: #FF4850;
+}
+
+
+@media (min-width:768px){
+  body{
+    background-image: url("bulldog.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    font-family: 'Fira Sans', sans-serif; 
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+  }
+
+  h3{
+    padding-left:50px;
+    padding-top: 10px;
+  }
+
+  ul{
+    list-style-type:none;
+  }
+
+  .menu{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items:baseline;
+  }
+
+  a{
+    padding-right: 50px;
+  }
+
+  .contact{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  a:link{
+    text-decoration: none;
+    color: #88898B;
+  }
+
+  a:hover{
+    color:#FF4850
+  }
+
+  .redText{
+    color: red;
+  }
+
+  .paragraph{
+    padding-left:50px;
+    padding-top:15%;
+  }
+
+  p{
+    color: #88898B
+  }
+
+  button{
+    background:#FF4850;
+    color: white;
+    border-radius: 15px;
+    padding:10px;
+    background-position: left top;
+  }
+
+  .button{
+    width: 15%;
+  }
+
+  button:hover{
+    background-color:#CCC;
+    color: #FF4850;
+  }
+}
+
 
 
